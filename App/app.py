@@ -28,7 +28,9 @@ def createRecipeManagementApp(configClass : Config = Config) -> Flask:
 
     app.register_blueprint(AUTH_API, url_prefix="/api/auth")
     app.register_blueprint(USER_API, url_prefix="/api/user")
-    app.register_blueprint(RECIPE_API, url_prefix="/api/recipe")
+    app.register_blueprint(RECIPE_API, url_prefix="/api/recipes")
 
 
     return app
+
+

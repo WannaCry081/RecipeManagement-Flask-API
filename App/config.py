@@ -1,4 +1,4 @@
-from App.utils.key_generator_util import secretKeyGenerator
+from App.utils import secretKeyGenerator
 from datetime import timedelta
 
 

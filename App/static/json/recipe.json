@@ -1,0 +1,335 @@
+[
+    {
+      "id": 1,
+      "title": "Spaghetti Bolognese",
+      "ingredients": [
+        "spaghetti",
+        "ground beef",
+        "tomatoes",
+        "onions",
+        "garlic",
+        "olive oil",
+        "herbs",
+        "parmesan cheese"
+      ],
+      "instructions": "1. Cook spaghetti according to package instructions. \n2. In a pan, heat olive oil and sauté onions and garlic. \n3. Add ground beef and cook until browned. \n4. Stir in tomatoes, herbs, salt, and pepper. Simmer for 20 minutes. \n5. Serve the Bolognese sauce over cooked spaghetti and garnish with grated parmesan cheese."
+    },
+    {
+      "id": 2,
+      "title": "Chicken Curry",
+      "ingredients": [
+        "chicken",
+        "onions",
+        "garlic",
+        "ginger",
+        "tomatoes",
+        "curry powder",
+        "coconut milk",
+        "cilantro"
+      ],
+      "instructions": "1. In a pan, heat oil and sauté onions, garlic, and ginger until fragrant. \n2. Add chicken pieces and cook until browned. \n3. Stir in curry powder and cook for a minute. \n4. Add tomatoes and simmer until they break down. \n5. Pour in coconut milk, cover, and simmer until the chicken is cooked through. \n6. Garnish with chopped cilantro and serve with rice or naan bread."
+    },
+    {
+      "id": 3,
+      "title": "Caprese Salad",
+      "ingredients": [
+        "tomatoes",
+        "mozzarella cheese",
+        "fresh basil",
+        "extra virgin olive oil",
+        "balsamic vinegar",
+        "salt",
+        "black pepper"
+      ],
+      "instructions": "1. Slice tomatoes and mozzarella cheese into thick slices. \n2. Arrange them on a plate, alternating tomato and cheese slices. \n3. Place a fresh basil leaf on top of each tomato slice. \n4. Drizzle with extra virgin olive oil and balsamic vinegar. \n5. Sprinkle with salt and freshly ground black pepper. \n6. Serve immediately as a refreshing salad."
+    },
+    {
+      "id": 4,
+      "title": "Homemade Pizza",
+      "ingredients": [
+        "pizza dough",
+        "tomato sauce",
+        "mozzarella cheese",
+        "pepperoni",
+        "mushrooms",
+        "bell peppers",
+        "olives",
+        "oregano"
+      ],
+      "instructions": "1. Preheat the oven to the specified temperature for the pizza dough. \n2. Roll out the pizza dough on a floured surface to your desired thickness. \n3. Spread tomato sauce evenly on the dough, leaving a small border for the crust. \n4. Sprinkle grated mozzarella cheese over the sauce. \n5. Arrange your favorite toppings (pepperoni, mushrooms, bell peppers, olives, etc.) on top. \n6. Sprinkle with oregano and bake in the preheated oven until the crust is golden and the cheese is melted and bubbly. \n7. Slice and serve hot."
+    },
+    {
+      "id": 5,
+      "title": "Chocolate Chip Cookies",
+      "ingredients": [
+        "all-purpose flour",
+        "baking soda",
+        "salt",
+        "unsalted butter",
+        "granulated sugar",
+        "brown sugar",
+        "vanilla extract",
+        "eggs",
+        "chocolate chips"
+      ],
+      "instructions": "1. Preheat the oven to the specified temperature for the cookies. \n2. In a bowl, whisk together flour, baking soda, and salt. \n3. In a separate large bowl, cream together butter, granulated sugar, and brown sugar until light and fluffy. \n4. Beat in vanilla extract and eggs, one at a time. \n5. Gradually add the dry ingredients to the wet ingredients, mixing until just combined. \n6. Stir in chocolate chips. \n7. Drop rounded spoonfuls of dough onto a baking sheet and bake in the preheated oven until golden brown around the edges. \n8. Allow the cookies to cool on the baking sheet for a few minutes before transferring to a wire rack to cool completely."
+    },
+    {
+      "id": 6,
+      "title": "Caesar Salad",
+      "ingredients": [
+        "romaine lettuce",
+        "croutons",
+        "parmesan cheese",
+        "lemon juice",
+        "garlic",
+        "dijon mustard",
+        "anchovy paste",
+        "olive oil",
+        "salt",
+        "black pepper"
+      ],
+      "instructions": "1. Tear romaine lettuce leaves into bite-sized pieces and place them in a large bowl. \n2. Add croutons and grated parmesan cheese to the bowl. \n3. In a separate small bowl, whisk together lemon juice, minced garlic, dijon mustard, and anchovy paste until well combined. \n4. Slowly drizzle in olive oil while whisking until the dressing emulsifies. \n5. Season with salt and black pepper to taste. \n6. Pour the dressing over the lettuce mixture and toss to coat evenly. \n7. Serve immediately as a classic Caesar salad."
+    },
+    {
+      "id": 7,
+      "title": "Beef Stir-Fry",
+      "ingredients": [
+        "beef",
+        "soy sauce",
+        "oyster sauce",
+        "sesame oil",
+        "garlic",
+        "ginger",
+        "vegetables (e.g., broccoli, bell peppers, carrots)",
+        "cornstarch",
+        "water",
+        "vegetable oil"
+      ],
+      "instructions": "1. Thinly slice the beef against the grain. \n2. In a small bowl, mix together soy sauce, oyster sauce, and sesame oil. \n3. In a separate small bowl, mix cornstarch and water to make a slurry. \n4. Heat vegetable oil in a wok or large skillet over high heat. \n5. Add minced garlic and grated ginger, and stir-fry for a few seconds until fragrant. \n6. Add beef slices and stir-fry until browned. \n7. Add vegetables and continue stir-frying until crisp-tender. \n8. Pour in the sauce mixture and stir well. \n9. Stir in the cornstarch slurry and cook until the sauce thickens. \n10. Serve the beef stir-fry over steamed rice."
+    },
+    {
+      "id": 8,
+      "title": "Pancakes",
+      "ingredients": [
+        "all-purpose flour",
+        "sugar",
+        "baking powder",
+        "salt",
+        "milk",
+        "eggs",
+        "unsalted butter"
+      ],
+      "instructions": "1. In a large bowl, whisk together flour, sugar, baking powder, and salt. \n2. In a separate bowl, whisk together milk, eggs, and melted butter. \n3. Pour the wet ingredients into the dry ingredients and stir until just combined. \n4. Heat a non-stick skillet or griddle over medium heat and lightly grease with butter or oil. \n5. Pour a scoop of batter onto the skillet and spread it into a round shape. \n6. Cook until bubbles form on the surface, then flip and cook until golden brown. \n7. Repeat with the remaining batter. \n8. Serve the pancakes warm with your favorite toppings (maple syrup, fresh fruits, etc.)."
+    },
+    {
+      "id": 9,
+      "title": "Beef Tacos",
+      "ingredients": [
+        "beef",
+        "taco seasoning",
+        "tortillas",
+        "lettuce",
+        "tomatoes",
+        "cheese",
+        "sour cream",
+        "salsa"
+      ],
+      "instructions": "1. Heat a skillet over medium-high heat and brown the ground beef. \n2. Drain any excess fat and stir in the taco seasoning according to package instructions. \n3. Warm the tortillas in a separate skillet or in the oven. \n4. Assemble the tacos by filling each tortilla with the beef mixture, lettuce, tomatoes, cheese, sour cream, and salsa. \n5. Fold the tortillas and serve immediately as tasty beef tacos."
+    },
+    {
+      "id": 10,
+      "title": "Roast Chicken",
+      "ingredients": [
+        "whole chicken",
+        "lemon",
+        "garlic",
+        "rosemary",
+        "thyme",
+        "salt",
+        "black pepper",
+        "olive oil"
+      ],
+      "instructions": "1. Preheat the oven to the specified temperature for roasting. \n2. Rinse the chicken inside and out, then pat dry with paper towels. \n3. Place the chicken on a rack in a roasting pan. \n4. Squeeze lemon juice over the chicken and place the lemon halves inside the cavity. \n5. Rub the chicken with minced garlic, chopped rosemary, chopped thyme, salt, and black pepper. \n6. Drizzle olive oil over the chicken. \n7. Roast the chicken in the preheated oven until the skin is golden brown and crispy and the internal temperature reaches a safe level. \n8. Remove from the oven, cover with foil, and let it rest for a few minutes before carving."
+    },
+    {
+      "id": 11,
+      "title": "Garden Salad",
+      "ingredients": [
+        "mixed greens",
+        "cherry tomatoes",
+        "cucumber",
+        "red onion",
+        "carrots",
+        "bell peppers",
+        "olives",
+        "feta cheese",
+        "balsamic vinaigrette"
+      ],
+      "instructions": "1. Wash and dry the mixed greens thoroughly. \n2. Slice cherry tomatoes in half. \n3. Chop cucumber, red onion, carrots, and bell peppers into bite-sized pieces. \n4. Combine the mixed greens, cherry tomatoes, cucumber, red onion, carrots, bell peppers, olives, and crumbled feta cheese in a large salad bowl. \n5. Drizzle balsamic vinaigrette over the salad and toss to coat evenly. \n6. Serve the garden salad as a refreshing side dish."
+    },
+    {
+      "id": 12,
+      "title": "Mushroom Risotto",
+      "ingredients": [
+        "arborio rice",
+        "mushrooms",
+        "onion",
+        "garlic",
+        "vegetable broth",
+        "white wine",
+        "parmesan cheese",
+        "butter",
+        "salt",
+        "black pepper",
+        "fresh parsley"
+      ],
+      "instructions": "1. In a saucepan, heat vegetable broth and keep it warm. \n2. In a separate large pan, melt butter and sauté finely chopped onion and minced garlic until translucent. \n3. Add sliced mushrooms and cook until they release their moisture. \n4. Stir in arborio rice and cook for a few minutes until lightly toasted. \n5. Pour in white wine and simmer until it is absorbed by the rice. \n6. Add a ladle of warm vegetable broth to the rice mixture and stir continuously until the liquid is absorbed. Repeat this process, adding more broth gradually, until the rice is cooked al dente. \n7. Stir in grated parmesan cheese, salt, and black pepper. \n8. Remove from heat and let the risotto rest for a few minutes. \n9. Serve the mushroom risotto hot, garnished with freshly chopped parsley."
+    },
+    {
+      "id": 13,
+      "title": "Chicken Noodle Soup",
+      "ingredients": [
+        "chicken",
+        "carrots",
+        "celery",
+        "onion",
+        "garlic",
+        "chicken broth",
+        "egg noodles",
+        "dried thyme",
+        "bay leaf",
+        "salt",
+        "black pepper",
+        "fresh parsley"
+      ],
+      "instructions": "1. In a large pot, bring chicken, carrots, celery, onion, and minced garlic to a boil in chicken broth. \n2. Reduce heat and simmer until the chicken is cooked through. \n3. Remove the chicken from the pot and shred it into bite-sized pieces. \n4. Return the chicken to the pot and add egg noodles, dried thyme, bay leaf, salt, and black pepper. \n5. Simmer until the noodles are tender. \n6. Remove the bay leaf and season with additional salt and pepper if needed. \n7. Serve the chicken noodle soup hot, garnished with freshly chopped parsley."
+    },
+    {
+      "id": 14,
+      "title": "Beef Stroganoff",
+      "ingredients": [
+        "beef",
+        "onion",
+        "mushrooms",
+        "garlic",
+        "beef broth",
+        "sour cream",
+        "dijon mustard",
+        "flour",
+        "butter",
+        "salt",
+        "black pepper",
+        "egg noodles"
+      ],
+      "instructions": "1. Cut beef into thin strips and season with salt and black pepper. \n2. In a large skillet, melt butter and sauté thinly sliced onion, sliced mushrooms, and minced garlic until softened. \n3. Remove the vegetables from the skillet and set aside. \n4. In the same skillet, cook beef strips until browned. \n5. Sprinkle flour over the beef and stir to coat. \n6. Stir in beef broth and bring to a simmer, allowing the sauce to thicken. \n7. Return the sautéed vegetables to the skillet. \n8. Stir in sour cream and dijon mustard, heating until warmed through. \n9. Serve the beef stroganoff over cooked egg noodles."
+    },
+    {
+      "id": 15,
+      "title": "Fish Tacos",
+      "ingredients": [
+        "white fish fillets",
+        "flour",
+        "cornmeal",
+        "paprika",
+        "cumin",
+        "garlic powder",
+        "salt",
+        "black pepper",
+        "lime juice",
+        "tortillas",
+        "cabbage",
+        "cilantro",
+        "sour cream",
+        "salsa"
+      ],
+      "instructions": "1. In a shallow bowl, combine flour, cornmeal, paprika, cumin, garlic powder, salt, and black pepper. \n2. Dip white fish fillets into lime juice, then coat them with the flour mixture. \n3. Heat oil in a skillet over medium-high heat. \n4. Cook the fish fillets for a few minutes on each side until golden brown and cooked through. \n5. Warm the tortillas in a separate skillet or in the oven. \n6. Assemble the tacos by placing a piece of fish on each tortilla and topping it with shredded cabbage, chopped cilantro, sour cream, and salsa. \n7. Fold the tortillas and serve the fish tacos immediately."
+    },
+    {
+      "id": 16,
+      "title": "Lasagna",
+      "ingredients": [
+        "lasagna noodles",
+        "ground beef",
+        "onion",
+        "garlic",
+        "tomato sauce",
+        "dried basil",
+        "dried oregano",
+        "ricotta cheese",
+        "mozzarella cheese",
+        "parmesan cheese",
+        "salt",
+        "black pepper"
+      ],
+      "instructions": "1. Cook lasagna noodles according to package instructions. \n2. In a large skillet, brown ground beef with finely chopped onion and minced garlic. \n3. Stir in tomato sauce, dried basil, dried oregano, salt, and black pepper. Simmer for 10 minutes. \n4. Preheat the oven to the specified temperature for baking lasagna. \n5. In a baking dish, spread a layer of the meat sauce on the bottom. \n6. Place a layer of cooked lasagna noodles on top of the sauce. \n7. Spread a layer of ricotta cheese over the noodles, then sprinkle shredded mozzarella and grated parmesan cheese. \n8. Repeat the layers until all ingredients are used, ending with a layer of meat sauce and cheese on top. \n9. Cover the baking dish with foil and bake in the preheated oven for the specified time. \n10. Remove the foil and bake for an additional few minutes until the cheese is bubbly and golden. \n11. Allow the lasagna to cool for a few minutes before slicing and serving."
+    },
+    {
+      "id": 17,
+      "title": "Shrimp Scampi",
+      "ingredients": [
+        "shrimp",
+        "linguine",
+        "garlic",
+        "lemon",
+        "white wine",
+        "butter",
+        "olive oil",
+        "parsley",
+        "red pepper flakes",
+        "salt",
+        "black pepper"
+      ],
+      "instructions": "1. Cook linguine according to package instructions. \n2. In a large skillet, melt butter with olive oil over medium heat. \n3. Add minced garlic and red pepper flakes, and sauté for a minute until fragrant. \n4. Add shrimp and cook until they turn pink. \n5. Squeeze lemon juice over the shrimp and stir in white wine. \n6. Season with salt and black pepper to taste. \n7. Drain the cooked linguine and add it to the skillet. \n8. Toss the pasta with the shrimp and sauce until well coated. \n9. Garnish with freshly chopped parsley. \n10. Serve the shrimp scampi immediately."
+    },
+    {
+      "id": 18,
+      "title": "Vegetable Curry",
+      "ingredients": [
+        "mixed vegetables (e.g., carrots, potatoes, bell peppers, peas)",
+        "onion",
+        "garlic",
+        "ginger",
+        "coconut milk",
+        "curry powder",
+        "turmeric",
+        "cumin",
+        "coriander",
+        "cayenne pepper",
+        "vegetable broth",
+        "lime juice",
+        "cilantro",
+        "rice or naan bread"
+      ],
+      "instructions": "1. Heat oil in a large pot over medium heat. \n2. Sauté finely chopped onion, minced garlic, and grated ginger until softened. \n3. Add mixed vegetables and cook for a few minutes until they start to soften. \n4. Stir in curry powder, turmeric, cumin, coriander, and cayenne pepper. \n5. Pour in coconut milk and vegetable broth, and bring to a simmer. \n6. Reduce heat and let the curry simmer until the vegetables are cooked through. \n7. Stir in lime juice and season with salt to taste. \n8. Serve the vegetable curry over rice or with naan bread, garnished with chopped cilantro."
+    },
+    {
+      "id": 19,
+      "title": "Spinach and Feta Stuffed Chicken Breast",
+      "ingredients": [
+        "chicken breast",
+        "spinach",
+        "feta cheese",
+        "garlic",
+        "dried oregano",
+        "salt",
+        "black pepper",
+        "olive oil"
+      ],
+      "instructions": "1. Preheat the oven to the specified temperature for baking chicken. \n2. Butterfly the chicken breast by slicing it horizontally but not all the way through, then open it like a book. \n3. Season the inside of the chicken breast with salt, black pepper, and dried oregano. \n4. Layer spinach leaves and crumbled feta cheese on one side of the chicken breast. \n5. Fold the other side of the chicken breast over the filling and secure it with toothpicks. \n6. Heat olive oil in an oven-safe skillet over medium-high heat. \n7. Sear the stuffed chicken breast on both sides until golden brown. \n8. Transfer the skillet to the preheated oven and bake until the chicken is cooked through. \n9. Remove the toothpicks and let the chicken rest for a few minutes before slicing and serving."
+    },
+    {
+      "id": 20,
+      "title": "Chocolate Lava Cake",
+      "ingredients": [
+        "dark chocolate",
+        "unsalted butter",
+        "eggs",
+        "sugar",
+        "vanilla extract",
+        "all-purpose flour",
+        "salt"
+      ],
+      "instructions": "1. Preheat the oven to the specified temperature for baking lava cakes. \n2. Grease and lightly flour individual ramekins or baking cups. \n3. In a heatproof bowl, melt dark chocolate and unsalted butter together in a microwave or over a double boiler. \n4. In a separate bowl, whisk together eggs, sugar, and vanilla extract until well combined. \n5. Slowly pour the melted chocolate mixture into the egg mixture, whisking continuously. \n6. Sift in all-purpose flour and salt, and gently fold the dry ingredients into the batter until just combined. \n7. Divide the batter evenly among the prepared ramekins or baking cups. \n8. Place the ramekins on a baking sheet and bake in the preheated oven for the specified time. \n9. Remove from the oven and let the lava cakes cool for a few minutes. \n10. Carefully invert each ramekin onto a plate and remove the ramekin. \n11. Serve the chocolate lava cakes warm, optionally with a dusting of powdered sugar or a scoop of ice cream."
+    }
+]
