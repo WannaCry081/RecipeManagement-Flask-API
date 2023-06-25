@@ -1,1 +1,10 @@
 env
+Notes
+
+App/__pycache__
+
+App/apis/auth/__pycache__
+App/apis/user/__pycache__
+App/apis/recipe/__pycache__
+
+App/utils/__pycache__

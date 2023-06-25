@@ -1,4 +1,5 @@
 flask
+flask-bcrypt
 flask-jwt-extended
 flask-pymongo
 flask-cors
