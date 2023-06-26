@@ -25,3 +25,11 @@ class RecipeModel:
             "ingredients" : self.ingredients,
             "instruction" : self.instruction
         }
+    
+    def fromObject(self, data : dict) -> "RecipeModel":  
+        return RecipeModel(
+            id = str(data["id"]),
+            title = str(data["title"]),
+            ingredients = str(data["ingredients"]),
+            instruction = str(data["instruction"])
+        )
