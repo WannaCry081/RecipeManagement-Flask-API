@@ -11,7 +11,9 @@ from flask_jwt_extended import (
     set_refresh_cookies,
     create_access_token,
     create_refresh_token,
-    unset_jwt_cookies
+    unset_jwt_cookies,
+    jwt_required,
+    get_jwt_identity
 )
 
 
@@ -140,3 +142,37 @@ def signOutUser():
     })  
     unset_jwt_cookies(response)
     return response, 200
+
+
+@AUTH_API.route("/refresh/", methods=["POST"])
+@jwt_required(refresh=True)
+def refreshToken():
+    try:
+        collection = DB.db.auth
+        access_token = get_jwt_identity()
+        data = collection.find_one({"email" : access_token})
+
+        if data:
+            new_token = create_access_token(identity=access_token)
+            response = jsonify({
+                "auth": True,
+                "access_token": new_token,
+                "message": "Access Authorized",
+                "status": 200
+            })
+            set_access_cookies(response, new_token)
+            return response, 200
+
+        return jsonify({
+            "auth" : False,
+            "message" : "User does not Exists",
+            "status" : 404
+        }), 404
+    
+    except Exception as e:
+        return jsonify({
+            "error" : e,
+            "message" : "Internal Server Error",
+            "status" : 500
+        }), 500
+    

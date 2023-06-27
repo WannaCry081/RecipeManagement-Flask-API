@@ -1,14 +1,12 @@
 
 class RecipeModel:
     
-    id : int = None
     title : str = None
     ingredients : list[str] = None
     instruction : str = None
 
 
-    def __init__(self, id : int, title : str, ingredients : list[str], instruction : str):
-        self.id = id
+    def __init__(self, title : str, ingredients : list[str], instruction : str):
         self.title = title
         self.ingredients = ingredients
         self.instruction = instruction
@@ -20,16 +18,16 @@ class RecipeModel:
 
     def toObject(self) -> dict:
         return {
-            "id" : self.id,
             "title" : self.title,
             "ingredients" : self.ingredients,
             "instruction" : self.instruction
         }
     
-    def fromObject(self, data : dict) -> "RecipeModel":  
+    @staticmethod
+    def fromObject(data : dict) -> "RecipeModel":  
         return RecipeModel(
-            id = str(data["id"]),
             title = str(data["title"]),
-            ingredients = str(data["ingredients"]),
+            ingredients = list(data["ingredients"]),
             instruction = str(data["instruction"])
         )
+    
