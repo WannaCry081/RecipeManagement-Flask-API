@@ -129,14 +129,13 @@ def addRecipe():
 
 
 @RECIPE_API.route("/<recipe_title>/", methods=["PUT"])
-# @jwt_required()
+@jwt_required()
 def updateRecipe(recipe_title : str):
     try:
         collection_auth = DB.db.auth
         collection_recipe = DB.db.recipe
 
-        # access_token = get_jwt_identity()
-        access_token = "liraedata59@gmail.com"
+        access_token = get_jwt_identity()
         data_auth = collection_auth.find_one({"email" : access_token})
         if data_auth:
             data_recipe = collection_recipe.find_one({"title" : recipe_title})
