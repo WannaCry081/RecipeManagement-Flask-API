@@ -1,6 +1,13 @@
 # Recipe Management API
 
-The Recipe Management API is an application that allows users to manage recipes and retrieve information about various recipes. It provides endpoints for creating, retrieving, updating, and deleting recipes, along with their ingredients and instructions.
+This is the backend documentation for the Recipe Management System. The backend provides a set of API routes for authentication, user management, and recipe management. These APIs can be used to create, read, update, and delete recipes in the system.
+
+## Table of Contents
+1. [Features](#features)
+2. [Installation]("#installation)
+3. [Authentication Route API](#authentication-route-api)
+4. [User Route API](#user-route-api)
+5. [Recipe Route API](#recipe-route-api)
 
 ## Features
 
@@ -37,66 +44,40 @@ The Recipe Management API is an application that allows users to manage recipes 
 
 5. Access the API at `http://localhost:5000`.
 
-## API Endpoints
 
-- `GET /recipes`: Retrieve a list of all recipes.
-- `GET /recipes/{recipe_id}`: Retrieve details of a specific recipe.
-- `POST /recipes`: Create a new recipe.
-- `PUT /recipes/{recipe_id}`: Update an existing recipe.
-- `DELETE /recipes/{recipe_id}`: Delete a recipe.
+## API Endpoints 
+### Authentication Route API
 
-## Request and Response Examples
+- `POST /api/auth/signin/` - Sign in a user.
+- `POST /api/auth/signup/` - Sign up a user.
+- `POST /api/auth/signout/` - Sign out a user.
+- `POST /api/auth/refresh/` - Refresh the access token.
 
-### Get all recipes
+### User Route API
 
-- **Request:**
+- `GET /api/user/` - Get the user profile.
+- `PUT /api/user/` - Update the user profile, such as the username and bio.
+- `DELETE /api/user/` - Delete the user profile.
 
-  ```http
-  GET /recipes
-  ```
+### Recipe Route API
 
-- **Response:**
+- `GET /api/recipe/` - Get all recipes.
+- `GET /api/recipe/<recipe_title>/` - Get the details of a specific recipe.
+- `POST /api/recipe/` - Add a new recipe to the system.
+- `PUT /api/recipe/<recipe_title>/` - Update the ingredients and instructions of a specific recipe.
+- `DELETE /api/recipe/<recipe_title>/` - Delete a specific recipe.
 
-  ```json
-  [
-    {
-      "id": 1,
-      "title": "Spaghetti Bolognese",
-      "ingredients": ["spaghetti", "ground beef", "tomatoes", "onions"],
-      "instructions": "1. Cook spaghetti... (more instructions)"
-    },
-    {
-      "id": 2,
-      "title": "Chocolate Chip Cookies",
-      "ingredients": ["flour", "sugar", "chocolate chips", "butter"],
-      "instructions": "1. Preheat oven... (more instructions)"
-    },
-    ...
-  ]
-  ```
+Please note that the API endpoints mentioned above are just placeholders and should be replaced with the actual URL endpoints and routes used in your backend implementation.
 
-### Get a specific recipe
+Make sure to authenticate requests that require user authorization using tokens or session management to ensure the security of the system. Implement proper validation and error handling to provide informative responses for each API.
 
-- **Request:**
+For detailed information on how to use these API routes, refer to the API documentation or consult the backend developers' guide.
 
-  ```http
-  GET /recipes/1
-  ```
+## Conclusion
 
-- **Response:**
+This README provides an overview of the Recipe Management System backend, including the available API routes for authentication, user management, and recipe management. You can use this documentation as a reference to understand and interact with the backend APIs.
 
-  ```json
-  {
-    "id": 1,
-    "title": "Spaghetti Bolognese",
-    "ingredients": ["spaghetti", "ground beef", "tomatoes", "onions"],
-    "instructions": "1. Cook spaghetti... (more instructions)"
-  }
-  ```
-
-Refer to the API documentation within the codebase for detailed information on request payloads and responses.
-
-## Contributing
+## Contributions
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
@@ -105,3 +86,4 @@ Please ensure that your code adheres to the existing code style and follows the 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+

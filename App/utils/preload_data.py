@@ -15,7 +15,6 @@ def loadRecipes() -> None:
 
             for json_data in json_datas:
                 recipe : RecipeModel = RecipeModel(
-                    json_data["id"],
                     json_data["title"],
                     json_data["ingredients"],
                     json_data["instructions"]
